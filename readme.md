@@ -1,0 +1,2 @@
+Author: Ethen Gonzalez
+Purpose: To create an HTML document and demonstrate the three different ways to add JavaScript to your page: [1] embedded JavaScript in a script tag, [2] external JavaScript imported via a script tag, and [3] inside of an HTML element attribute.
