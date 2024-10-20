@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Test</title>
+
+  <!-- Importing external JavaScript -->
+  <script src="script.js" defer></script>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>JavaScript Test</h1>
+
+  <!-- Inline JavaScript with an onclick attribute -->
+  <button onclick="alert('Button has been used')">Press Here</button>
+
+  <p id="text">Hover over this.</p>
+
+  <!-- Embedded JavaScript in a script tag -->
+  <script>
+    document.getElementById("text").addEventListener("mouseover", function() {
+      console.log("Text hovered!");
+      this.style.color = "red";
+    });
+  </script>
+
+</body>
+</html>
